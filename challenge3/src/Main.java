@@ -15,7 +15,7 @@ public class Main {
             i+=2;
             N-=2;
         }
-        if (N!= 0){
+        if (N != 0){
             System.out.println(N + " Students cannot find a seat");
         }
     }
