@@ -11,10 +11,10 @@ public class Main {
         float consumed = scanner.nextFloat();
         if (consumed <= 100){
             result = consumed * 0.8;
-        }else if(consumed <= 200){
+        }else if(consumed <= 300){
             result = ((consumed - 100) * 1.2) + 100 * 0.8;
         }else {
-            result = ((consumed - 200) * 1.5) + (100 * 0.8) + (100 * 1.2);
+            result = ((consumed - 300) * 1.5) + (100 * 0.8) + (200 * 1.2);
         }
         System.out.println("Facture avant taxe : "+ result + " DH");
         System.out.println("Taxe (10%) : " + result/10 + " DH");
